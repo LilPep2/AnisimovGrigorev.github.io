@@ -1,0 +1,532 @@
+.body {
+	background-color: black;
+}
+.header__list {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	max-width: 	1180px;
+	z-index: 101;
+	display: flex;
+	padding-top: 22px;
+	position: absolute;
+	width: 745px;
+	height: 24px;
+	left: 642px;
+	top: 48px;
+	padding: 0px;
+    
+}
+
+.header__link {
+	text-decoration: none;
+	color: white;
+	margin-left: 56px;
+}
+.shapka {
+	position: absolute;
+	z-index: 1;
+	width: 1920px;
+	height: 960px;
+	left: 0px;
+	top: 0px;
+	list-style: none;
+	user-select: none;
+	pointer-events: none;
+}
+.icon1 {
+	position: absolute;
+	z-index: 2;
+	width: 40px;
+	height: 40px;
+	left: 82px;
+	top: 40px;
+	user-select: none;
+	pointer-events: none;
+}
+.knopka2 {
+	z-index: 10;
+	position: relative;
+	background-color: #9C7EFB;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 30px;
+	gap: 10px;;
+	border-radius: 40px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	line-height: 150%;
+	color: white;
+}
+.knopka {
+	position: absolute;
+	width: 183px;
+	height: 60px;
+	top: 30px;
+	left: 1657px;
+}
+.knopka1 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+
+.textgl {
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	z-index: 20;
+	color: white;
+	width: 920px;
+	height: 180px;
+	left: 312px;
+	top: 270px;
+	user-select: none;
+	pointer-events: none;
+
+}
+.day {
+	position: absolute;
+	width: 102px;
+	height: 112px;
+	left: 312px;
+	top: 500px;
+	z-index: 10;
+	user-select: none;
+	pointer-events: none;
+
+}
+.hour {
+	position: absolute;
+	width: 107px;
+	height: 112px;
+	left: 444px;
+	top: 500px;
+	z-index: 10;
+	user-select: none;
+	pointer-events: none;
+}
+
+.minutes {
+	position: absolute;
+	width: 108px;
+	height: 112px;
+	left: 581px;
+	top: 500px;
+	z-index: 10;
+	user-select: none;
+	pointer-events: none;
+}
+.sec {
+	position: absolute;
+	width: 115px;
+	height: 112px;
+	left: 719px;
+	top: 500px;
+	z-index: 10;
+	user-select: none;
+	pointer-events: none;
+}
+.gradient {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	position: absolute;
+	z-index: 10;
+	width: 169px;
+	height: 44px;
+	left: 312px;
+	top: 873px;
+	background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+	border-radius: 50px;
+	color: white;
+}
+
+.pod {
+	position: absolute;
+	z-index: 9;
+	width: 1920px;
+	height: 130px;
+	left: 0px;
+	top: 830px;
+	user-select: none;
+	user-zoom: none;
+	pointer-events: none;
+}
+.study {
+	position: absolute;
+	width: 122px;
+	height: 24px;
+	left: 562px;
+	top: 866px;
+	z-index: 10;
+}
+
+.study1 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: white;
+	opacity: 0.4;
+}
+.stydy2 {
+	position: absolute;
+	width: 28px;
+	height: 24px;
+	left: 785px;
+	top: 866px;
+	z-index: 10;
+}
+.study3 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	color: white;
+}
+.kurs {
+	position: absolute;
+	width: 193px;
+	height: 24px;
+	left: 562px;
+	top: 900px;
+	z-index: 10;
+}
+
+.kurs1 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	font-size: 16px;
+	color: white;
+	opacity: 0.4;
+}
+
+.kurs2 {
+	position: absolute;
+	z-index: 10;
+	width: 28px;
+	height: 24px;
+	left: 785px;
+	top: 900px;
+}
+
+.kurs3 {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%;
+
+}
+
+.pk {
+	position: absolute;
+	width: 526px;
+	height: 542px;
+	left: 312px;
+	top: 1160px;
+	z-index: 10;
+	user-select: none;
+	pointer-events: none;
+}
+.subtitle {
+	position: absolute;
+	width: 502px;
+	height: 67px;
+	left: 972px;
+	top: 1229px;
+	z-index: 10;
+}
+.subtitle1 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 140%;
+	color: white;
+}
+.text {
+	position: absolute;
+	z-index: 10;
+	width: 636px;
+	height: 130px;
+	left: 977px;
+	top: 1341px;
+}
+
+.text1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 160%;
+	color: white;
+
+}
+.icon_heading {
+	position: absolute;
+	width: 95px;
+	height: 95px;
+	left: 300px;
+	top: 1878px;
+	user-select: none;
+	pointer-events: none;
+
+}
+.prepod {
+	position: absolute;
+	width: 480px;
+	height: 67px;
+	left: 451px;
+	top: 1937px;
+	z-index: 10;
+	pointer-events: none;
+}
+
+.prepod1 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 140%;
+	color: white;
+
+}
+
+.spec1 {
+	position: absolute;
+	width: 190px;
+	height: 190px;
+	left: 425.08px;
+	top: 2117.8px;
+	z-index: 10;
+	user-select: none;
+	pointer-events: none;
+	border: solid 2px;
+	border-color: #C89AFC;
+	border-radius: 100px;
+}
+
+.bogdan {
+	position: absolute;
+	width: 416px;
+	height: 34px;
+	left: 423.08px;
+	top: 2337.8px;
+	pointer-events: none;
+	user-select: text;
+}
+
+.bogdan1 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 140%;
+	color: white;
+	text-align: center;
+}
+
+.q {
+	position: absolute;
+	width: 358px;
+	height: 26px;
+	left: 460.08px;
+	top: 2386.8px;
+	pointer-events: none;
+}
+
+.q1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 160%;
+	color: white;
+	opacity: 0.8;
+}
+
+.w {
+	position: absolute;
+	width: 143px;
+	height: 44px;
+	left: 445.08px;
+	top: 2442.8px;
+
+}
+
+.w2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	align-items: center;
+	background-color: black;
+	color: white;
+	padding: 10px 30px;
+	gap: 10px;
+	border: solid 1px;
+	border-radius: 50px;
+	border-color: white;
+
+}
+
+.spec2 {
+	position: absolute;
+	width: 190px;
+	height: 190px;
+	left: 884.08px;
+	top: 2117.8px;
+	z-index: 10;
+	user-select: none;
+	pointer-events: none;
+	border: solid 2px;
+	border-color: #C89AFC;
+	border-radius: 100px;
+
+}
+
+.aleks {
+	position: absolute;
+	width: 416px;
+	height: 34px;
+	left: 863.08px;
+	top: 2337.8px;
+	pointer-events: none;
+	user-select: text;
+}
+
+.aleks1 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 140%;
+	color: white;
+	text-align: center;
+}
+
+.e {
+	position: absolute;
+	width: 358px;
+	height: 26px;
+	left: 920.08px;
+	top: 2386.8px;
+	pointer-events: none;
+}
+
+.e1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 160%;
+	color: white;
+	opacity: 0.8;
+}
+
+.r {
+	position: absolute;
+	width: 143px;
+	height: 44px;
+	left: 910.08px;
+	top: 2442.8px;
+
+}
+
+.r2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	align-items: center;
+	background-color: black;
+	color: white;
+	padding: 10px 30px;
+	gap: 10px;
+	border: solid 1px;
+	border-radius: 50px;
+	border-color: white;
+
+}
+
+.spec3 {
+	position: absolute;
+	width: 190px;
+	height: 190px;
+	left: 1316.08px;
+	top: 2117.8px;
+	z-index: 10;
+	user-select: none;
+	pointer-events: none;
+	border: solid 2px;
+	border-color: #C89AFC;
+	border-radius: 100px;
+
+}
+
+.vlad {
+	position: absolute;
+	width: 416px;
+	height: 34px;
+	left: 1300.08px;
+	top: 2337.8px;
+	pointer-events: none;
+	user-select: text;
+}
+
+.vlad1 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 140%;
+	color: white;
+	text-align: center;
+}
+
+.t {
+	position: absolute;
+	width: 358px;
+	height: 26px;
+	left: 1354.08px;
+	top: 2386.8px;
+	pointer-events: none;
+}
+
+.t1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 160%;
+	color: white;
+	opacity: 0.8;
+}
+
+.y {
+	position: absolute;
+	width: 143px;
+	height: 44px;
+	left: 1344.08px;
+	top: 2442.8px;
+
+}
+
+.y2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	align-items: center;
+	background-color: black;
+	color: white;
+	padding: 10px 30px;
+	gap: 10px;
+	border: solid 1px;
+	border-radius: 50px;
+	border-color: white;
+
+}
